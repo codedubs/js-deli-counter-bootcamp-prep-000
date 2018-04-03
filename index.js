@@ -1,6 +1,4 @@
 
-
-
 var katzDeli = [];
 
 
@@ -8,7 +6,6 @@ function takeANumber(katzDeli, name) {
 
   katzDeli.push ( `${name}` );
   return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
-  return katzDeli;
 
 }
 
@@ -16,7 +13,6 @@ function takeANumber(katzDeli, name) {
 var katzDeliLine = [];
 
 function nowServing(katzDeli) {
-
 
   if ( katzDeli.length === 0 ) {
 
@@ -36,7 +32,7 @@ function currentLine (katzDeli) {
 
   } else {
 
-    return (`The line is currently: 1. ${katzDeli[0]}, 2. ${katzDeli[1]}, 3. ${katzDeli[2]}`)
-  }
+      return (`The line is currently: 1. ${katzDeli[0]}, 2. ${katzDeli[1]}, 3. ${katzDeli[2]}`)
 
+  }
 }
